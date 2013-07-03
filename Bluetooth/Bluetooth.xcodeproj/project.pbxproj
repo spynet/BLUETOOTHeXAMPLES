@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621F2C5F15B1870D003CEDDF /* BTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621F2C5D15B1870D003CEDDF /* BTAboutViewController.m */; };
+		621F2C6015B1870D003CEDDF /* BTAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621F2C5E15B1870D003CEDDF /* BTAboutViewController.xib */; };
+		621F2C6615B18FA5003CEDDF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 621F2C6515B18FA5003CEDDF /* Icon.png */; };
+		621F2C6815B18FA7003CEDDF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 621F2C6715B18FA7003CEDDF /* Icon@2x.png */; };
+		621F2C6C15B1A25E003CEDDF /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 621F2C6A15B1A25E003CEDDF /* back_button.png */; };
+		621F2C6D15B1A25E003CEDDF /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 621F2C6B15B1A25E003CEDDF /* back_button@2x.png */; };
+		621F2C7F15B1CF73003CEDDF /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621F2C7E15B1CF73003CEDDF /* BluetoothManager.framework */; };
+		628534E015AECBDE0023CF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628534DF15AECBDE0023CF40 /* UIKit.framework */; };
+		628534E215AECBDE0023CF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628534E115AECBDE0023CF40 /* Foundation.framework */; };
+		628534E415AECBDE0023CF40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628534E315AECBDE0023CF40 /* CoreGraphics.framework */; };
+		628534EA15AECBDE0023CF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 628534E815AECBDE0023CF40 /* InfoPlist.strings */; };
+		628534EC15AECBDE0023CF40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 628534EB15AECBDE0023CF40 /* main.m */; };
+		628534F015AECBDE0023CF40 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 628534EF15AECBDE0023CF40 /* BTAppDelegate.m */; };
+		628534F315AECBDE0023CF40 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628534F215AECBDE0023CF40 /* BTViewController.m */; };
+		628534F615AECBDE0023CF40 /* BTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628534F415AECBDE0023CF40 /* BTViewController_iPhone.xib */; };
+		62DDAC9515B43FCE0001217A /* BTListDevItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DDAC9415B43FCE0001217A /* BTListDevItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		621F2C5C15B1870D003CEDDF /* BTAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAboutViewController.h; sourceTree = "<group>"; };
+		621F2C5D15B1870D003CEDDF /* BTAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAboutViewController.m; sourceTree = "<group>"; };
+		621F2C5E15B1870D003CEDDF /* BTAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTAboutViewController.xib; sourceTree = "<group>"; };
+		621F2C6515B18FA5003CEDDF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		621F2C6715B18FA7003CEDDF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		621F2C6A15B1A25E003CEDDF /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_button.png; path = Images/back_button.png; sourceTree = "<group>"; };
+		621F2C6B15B1A25E003CEDDF /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_button@2x.png"; path = "Images/back_button@2x.png"; sourceTree = "<group>"; };
+		621F2C7A15B1C918003CEDDF /* BluetoothAudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothAudioJack.h; sourceTree = "<group>"; };
+		621F2C7B15B1C918003CEDDF /* BluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothDevice.h; sourceTree = "<group>"; };
+		621F2C7C15B1C918003CEDDF /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		621F2C7D15B1C918003CEDDF /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		621F2C7E15B1CF73003CEDDF /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
+		628534DB15AECBDE0023CF40 /* Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		628534DF15AECBDE0023CF40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		628534E115AECBDE0023CF40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		628534E315AECBDE0023CF40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		628534E715AECBDE0023CF40 /* Bluetooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bluetooth-Info.plist"; sourceTree = "<group>"; };
+		628534E915AECBDE0023CF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		628534EB15AECBDE0023CF40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		628534ED15AECBDE0023CF40 /* Bluetooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bluetooth-Prefix.pch"; sourceTree = "<group>"; };
+		628534EE15AECBDE0023CF40 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		628534EF15AECBDE0023CF40 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		628534F115AECBDE0023CF40 /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		628534F215AECBDE0023CF40 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		628534F515AECBDE0023CF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController_iPhone.xib; sourceTree = "<group>"; };
+		62DDAC9315B43FCE0001217A /* BTListDevItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTListDevItem.h; sourceTree = "<group>"; };
+		62DDAC9415B43FCE0001217A /* BTListDevItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTListDevItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		628534D815AECBDE0023CF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621F2C7F15B1CF73003CEDDF /* BluetoothManager.framework in Frameworks */,
+				628534E015AECBDE0023CF40 /* UIKit.framework in Frameworks */,
+				628534E215AECBDE0023CF40 /* Foundation.framework in Frameworks */,
+				628534E415AECBDE0023CF40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621F2C5A15B1867E003CEDDF /* MainGUI */ = {
+			isa = PBXGroup;
+			children = (
+				628534F115AECBDE0023CF40 /* BTViewController.h */,
+				628534F215AECBDE0023CF40 /* BTViewController.m */,
+				628534F415AECBDE0023CF40 /* BTViewController_iPhone.xib */,
+			);
+			name = MainGUI;
+			sourceTree = "<group>";
+		};
+		621F2C5B15B1868E003CEDDF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				621F2C5C15B1870D003CEDDF /* BTAboutViewController.h */,
+				621F2C5D15B1870D003CEDDF /* BTAboutViewController.m */,
+				621F2C5E15B1870D003CEDDF /* BTAboutViewController.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		621F2C6915B1A0DD003CEDDF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				621F2C6A15B1A25E003CEDDF /* back_button.png */,
+				621F2C6B15B1A25E003CEDDF /* back_button@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		628534D015AECBDE0023CF40 = {
+			isa = PBXGroup;
+			children = (
+				621F2C7E15B1CF73003CEDDF /* BluetoothManager.framework */,
+				621F2C7A15B1C918003CEDDF /* BluetoothAudioJack.h */,
+				621F2C7B15B1C918003CEDDF /* BluetoothDevice.h */,
+				621F2C7C15B1C918003CEDDF /* BluetoothManager.h */,
+				621F2C7D15B1C918003CEDDF /* CDStructures.h */,
+				621F2C6715B18FA7003CEDDF /* Icon@2x.png */,
+				621F2C6515B18FA5003CEDDF /* Icon.png */,
+				628534E515AECBDE0023CF40 /* Bluetooth */,
+				628534DE15AECBDE0023CF40 /* Frameworks */,
+				628534DC15AECBDE0023CF40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		628534DC15AECBDE0023CF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628534DB15AECBDE0023CF40 /* Bluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		628534DE15AECBDE0023CF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				628534DF15AECBDE0023CF40 /* UIKit.framework */,
+				628534E115AECBDE0023CF40 /* Foundation.framework */,
+				628534E315AECBDE0023CF40 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		628534E515AECBDE0023CF40 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				621F2C5B15B1868E003CEDDF /* About */,
+				621F2C5A15B1867E003CEDDF /* MainGUI */,
+				628534EE15AECBDE0023CF40 /* BTAppDelegate.h */,
+				628534EF15AECBDE0023CF40 /* BTAppDelegate.m */,
+				628534E615AECBDE0023CF40 /* Supporting Files */,
+				62DDAC9315B43FCE0001217A /* BTListDevItem.h */,
+				62DDAC9415B43FCE0001217A /* BTListDevItem.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		628534E615AECBDE0023CF40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621F2C6915B1A0DD003CEDDF /* Images */,
+				628534E715AECBDE0023CF40 /* Bluetooth-Info.plist */,
+				628534E815AECBDE0023CF40 /* InfoPlist.strings */,
+				628534EB15AECBDE0023CF40 /* main.m */,
+				628534ED15AECBDE0023CF40 /* Bluetooth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		628534DA15AECBDE0023CF40 /* Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628534FC15AECBDE0023CF40 /* Build configuration list for PBXNativeTarget "Bluetooth" */;
+			buildPhases = (
+				628534D715AECBDE0023CF40 /* Sources */,
+				628534D815AECBDE0023CF40 /* Frameworks */,
+				628534D915AECBDE0023CF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth;
+			productName = Bluetooth;
+			productReference = 628534DB15AECBDE0023CF40 /* Bluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		628534D215AECBDE0023CF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Teksoft;
+			};
+			buildConfigurationList = 628534D515AECBDE0023CF40 /* Build configuration list for PBXProject "Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 628534D015AECBDE0023CF40;
+			productRefGroup = 628534DC15AECBDE0023CF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				628534DA15AECBDE0023CF40 /* Bluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		628534D915AECBDE0023CF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628534EA15AECBDE0023CF40 /* InfoPlist.strings in Resources */,
+				628534F615AECBDE0023CF40 /* BTViewController_iPhone.xib in Resources */,
+				621F2C6015B1870D003CEDDF /* BTAboutViewController.xib in Resources */,
+				621F2C6615B18FA5003CEDDF /* Icon.png in Resources */,
+				621F2C6815B18FA7003CEDDF /* Icon@2x.png in Resources */,
+				621F2C6C15B1A25E003CEDDF /* back_button.png in Resources */,
+				621F2C6D15B1A25E003CEDDF /* back_button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		628534D715AECBDE0023CF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628534EC15AECBDE0023CF40 /* main.m in Sources */,
+				628534F015AECBDE0023CF40 /* BTAppDelegate.m in Sources */,
+				628534F315AECBDE0023CF40 /* BTViewController.m in Sources */,
+				621F2C5F15B1870D003CEDDF /* BTAboutViewController.m in Sources */,
+				62DDAC9515B43FCE0001217A /* BTListDevItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		628534E815AECBDE0023CF40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628534E915AECBDE0023CF40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		628534F415AECBDE0023CF40 /* BTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628534F515AECBDE0023CF40 /* en */,
+			);
+			name = BTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		628534FA15AECBDE0023CF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		628534FB15AECBDE0023CF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		628534FD15AECBDE0023CF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
+				INFOPLIST_FILE = "Bluetooth/Bluetooth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/BluetoothManager.framework\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		628534FE15AECBDE0023CF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
+				INFOPLIST_FILE = "Bluetooth/Bluetooth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/BluetoothManager.framework\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		628534D515AECBDE0023CF40 /* Build configuration list for PBXProject "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628534FA15AECBDE0023CF40 /* Debug */,
+				628534FB15AECBDE0023CF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628534FC15AECBDE0023CF40 /* Build configuration list for PBXNativeTarget "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628534FD15AECBDE0023CF40 /* Debug */,
+				628534FE15AECBDE0023CF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 628534D215AECBDE0023CF40 /* Project object */;
+}

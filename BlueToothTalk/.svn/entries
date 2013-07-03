@@ -1,0 +1,112 @@
+10
+
+dir
+0
+http://172.16.0.106:8080/svn/Mobile-Projects/trunk/CoffeeShop/Code%20Base/CoffeeShopIphone/BlueToothTalk
+http://172.16.0.106:8080/svn/Mobile-Projects
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1bca6712-0a7a-6d46-aa77-5a51910c6087
+
+BlueToothTalk
+dir
+
+
+
+add
+
+BTTalkMessage.m
+file
+
+
+
+add
+
+BTTalkCanvasViewController.h
+file
+
+
+
+add
+
+BlueToothTalkTests
+dir
+
+
+
+add
+
+BTManager.h
+file
+
+
+
+add
+
+BTTalkCustomMessageCell.h
+file
+
+
+
+add
+
+BTTalkCanvasViewController.m
+file
+
+
+
+add
+
+BTManager.m
+file
+
+
+
+add
+
+BTTalkCustomMessageCell.m
+file
+
+
+
+add
+
+BTTalkMessage.h
+file
+
+
+
+add
+
+BlueToothTalk.xcodeproj
+dir
+
+
+
+add
+
+BTTalkCanvasViewController.xib
+file
+
+
+
+add
+

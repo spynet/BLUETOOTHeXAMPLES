@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B060BE917797074007A24CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060BE817797074007A24CF /* UIKit.framework */; };
+		8B060BEB17797074007A24CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060BEA17797074007A24CF /* Foundation.framework */; };
+		8B060BED17797074007A24CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060BEC17797074007A24CF /* CoreGraphics.framework */; };
+		8B060BF317797074007A24CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B060BF117797074007A24CF /* InfoPlist.strings */; };
+		8B060BF517797074007A24CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060BF417797074007A24CF /* main.m */; };
+		8B060BF917797074007A24CF /* BTTalkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060BF817797074007A24CF /* BTTalkAppDelegate.m */; };
+		8B060BFB17797074007A24CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B060BFA17797074007A24CF /* Default.png */; };
+		8B060BFD17797074007A24CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B060BFC17797074007A24CF /* Default@2x.png */; };
+		8B060BFF17797074007A24CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B060BFE17797074007A24CF /* Default-568h@2x.png */; };
+		8B060C0217797074007A24CF /* BTTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060C0117797074007A24CF /* BTTalkViewController.m */; };
+		8B060C0517797074007A24CF /* BTTalkViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B060C0317797074007A24CF /* BTTalkViewController_iPhone.xib */; };
+		8B060C0817797074007A24CF /* BTTalkViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B060C0617797074007A24CF /* BTTalkViewController_iPad.xib */; };
+		8B060C1017797074007A24CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060C0F17797074007A24CF /* SenTestingKit.framework */; };
+		8B060C1117797074007A24CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060BE817797074007A24CF /* UIKit.framework */; };
+		8B060C1217797074007A24CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060BEA17797074007A24CF /* Foundation.framework */; };
+		8B060C1A17797074007A24CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B060C1817797074007A24CF /* InfoPlist.strings */; };
+		8B060C1D17797074007A24CF /* BlueToothTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060C1C17797074007A24CF /* BlueToothTalkTests.m */; };
+		8B060C2817797093007A24CF /* BTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060C2717797093007A24CF /* BTManager.m */; };
+		8B060C2A177972CA007A24CF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B060C29177972CA007A24CF /* GameKit.framework */; };
+		8B060C2B177972D6007A24CF /* BTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B060C2717797093007A24CF /* BTManager.m */; };
+		8B094148177D4C6B007A6B7D /* BTTalkCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B094146177D4C6B007A6B7D /* BTTalkCanvasViewController.m */; };
+		8B094149177D4C6B007A6B7D /* BTTalkCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B094147177D4C6B007A6B7D /* BTTalkCanvasViewController.xib */; };
+		8B094155177D53EF007A6B7D /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B094154177D53EF007A6B7D /* DAScratchPadView.m */; };
+		8B094157177D586E007A6B7D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B094156177D586E007A6B7D /* settings.png */; };
+		8B09415B177D5A05007A6B7D /* userInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B09415A177D5A05007A6B7D /* userInfo.png */; };
+		8B09415D177D5ACE007A6B7D /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B09415C177D5ACE007A6B7D /* save.png */; };
+		8B09415F177D5B58007A6B7D /* colorPallete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B09415E177D5B58007A6B7D /* colorPallete.png */; };
+		8B094161177D5BDB007A6B7D /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B094160177D5BDB007A6B7D /* pen.png */; };
+		8B094163177D5CA6007A6B7D /* SelectedItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B094162177D5CA6007A6B7D /* SelectedItem.png */; };
+		8B094164177D67E3007A6B7D /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B094154177D53EF007A6B7D /* DAScratchPadView.m */; };
+		8B094166177D6813007A6B7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B094165177D6813007A6B7D /* QuartzCore.framework */; };
+		8B094168177DA83F007A6B7D /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B094167177DA83F007A6B7D /* undo.png */; };
+		8B180D8A177C335400403552 /* BTTalkCustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180D89177C335400403552 /* BTTalkCustomMessageCell.m */; };
+		8B180D8D177C337C00403552 /* BTTalkCustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B180D8C177C337C00403552 /* BTTalkCustomMessageCell.xib */; };
+		8B180D94177C4F7000403552 /* BTTalkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180D93177C4F6F00403552 /* BTTalkMessage.m */; };
+		8B307C4517829E4F00E18B20 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B307C4417829E4F00E18B20 /* AVFoundation.framework */; };
+		8BA1D20017817CFF0040F3CD /* BTTalkCanvasViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1D1FF17817CFF0040F3CD /* BTTalkCanvasViewController~iphone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B060C1317797074007A24CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B060BDB17797073007A24CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B060BE317797074007A24CF;
+			remoteInfo = BlueToothTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B060BE417797074007A24CF /* BlueToothTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B060BE817797074007A24CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B060BEA17797074007A24CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B060BEC17797074007A24CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B060BF017797074007A24CF /* BlueToothTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueToothTalk-Info.plist"; sourceTree = "<group>"; };
+		8B060BF217797074007A24CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B060BF417797074007A24CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B060BF617797074007A24CF /* BlueToothTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueToothTalk-Prefix.pch"; sourceTree = "<group>"; };
+		8B060BF717797074007A24CF /* BTTalkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTalkAppDelegate.h; sourceTree = "<group>"; };
+		8B060BF817797074007A24CF /* BTTalkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTalkAppDelegate.m; sourceTree = "<group>"; };
+		8B060BFA17797074007A24CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B060BFC17797074007A24CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B060BFE17797074007A24CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B060C0017797074007A24CF /* BTTalkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTalkViewController.h; sourceTree = "<group>"; };
+		8B060C0117797074007A24CF /* BTTalkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTalkViewController.m; sourceTree = "<group>"; };
+		8B060C0417797074007A24CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTTalkViewController_iPhone.xib; sourceTree = "<group>"; };
+		8B060C0717797074007A24CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTTalkViewController_iPad.xib; sourceTree = "<group>"; };
+		8B060C0E17797074007A24CF /* BlueToothTalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothTalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B060C0F17797074007A24CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8B060C1717797074007A24CF /* BlueToothTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueToothTalkTests-Info.plist"; sourceTree = "<group>"; };
+		8B060C1917797074007A24CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B060C1B17797074007A24CF /* BlueToothTalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothTalkTests.h; sourceTree = "<group>"; };
+		8B060C1C17797074007A24CF /* BlueToothTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothTalkTests.m; sourceTree = "<group>"; };
+		8B060C2617797093007A24CF /* BTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTManager.h; sourceTree = "<group>"; };
+		8B060C2717797093007A24CF /* BTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTManager.m; sourceTree = "<group>"; };
+		8B060C29177972CA007A24CF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8B094145177D4C6B007A6B7D /* BTTalkCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTTalkCanvasViewController.h; path = ../BTTalkCanvasViewController.h; sourceTree = "<group>"; };
+		8B094146177D4C6B007A6B7D /* BTTalkCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTTalkCanvasViewController.m; path = ../BTTalkCanvasViewController.m; sourceTree = "<group>"; };
+		8B094147177D4C6B007A6B7D /* BTTalkCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BTTalkCanvasViewController.xib; path = ../BTTalkCanvasViewController.xib; sourceTree = "<group>"; };
+		8B094153177D53EF007A6B7D /* DAScratchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAScratchPadView.h; sourceTree = "<group>"; };
+		8B094154177D53EF007A6B7D /* DAScratchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAScratchPadView.m; sourceTree = "<group>"; };
+		8B094156177D586E007A6B7D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		8B09415A177D5A05007A6B7D /* userInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userInfo.png; sourceTree = "<group>"; };
+		8B09415C177D5ACE007A6B7D /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		8B09415E177D5B58007A6B7D /* colorPallete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPallete.png; sourceTree = "<group>"; };
+		8B094160177D5BDB007A6B7D /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		8B094162177D5CA6007A6B7D /* SelectedItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectedItem.png; sourceTree = "<group>"; };
+		8B094165177D6813007A6B7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8B094167177DA83F007A6B7D /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		8B180D88177C335300403552 /* BTTalkCustomMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTTalkCustomMessageCell.h; path = ../BTTalkCustomMessageCell.h; sourceTree = "<group>"; };
+		8B180D89177C335400403552 /* BTTalkCustomMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTTalkCustomMessageCell.m; path = ../BTTalkCustomMessageCell.m; sourceTree = "<group>"; };
+		8B180D8C177C337C00403552 /* BTTalkCustomMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTalkCustomMessageCell.xib; sourceTree = "<group>"; };
+		8B180D92177C4F6F00403552 /* BTTalkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTalkMessage.h; sourceTree = "<group>"; };
+		8B180D93177C4F6F00403552 /* BTTalkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTalkMessage.m; sourceTree = "<group>"; };
+		8B307C4417829E4F00E18B20 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BA1D1FF17817CFF0040F3CD /* BTTalkCanvasViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BTTalkCanvasViewController~iphone.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B060BE117797074007A24CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B307C4517829E4F00E18B20 /* AVFoundation.framework in Frameworks */,
+				8B094166177D6813007A6B7D /* QuartzCore.framework in Frameworks */,
+				8B060C2A177972CA007A24CF /* GameKit.framework in Frameworks */,
+				8B060BE917797074007A24CF /* UIKit.framework in Frameworks */,
+				8B060BEB17797074007A24CF /* Foundation.framework in Frameworks */,
+				8B060BED17797074007A24CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B060C0A17797074007A24CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B060C1017797074007A24CF /* SenTestingKit.framework in Frameworks */,
+				8B060C1117797074007A24CF /* UIKit.framework in Frameworks */,
+				8B060C1217797074007A24CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B060BD917797073007A24CF = {
+			isa = PBXGroup;
+			children = (
+				8B307C4417829E4F00E18B20 /* AVFoundation.framework */,
+				8BA1D1AC1781579D0040F3CD /* seconn set */,
+				8B094165177D6813007A6B7D /* QuartzCore.framework */,
+				8B180D92177C4F6F00403552 /* BTTalkMessage.h */,
+				8B180D93177C4F6F00403552 /* BTTalkMessage.m */,
+				8B060C29177972CA007A24CF /* GameKit.framework */,
+				8B060C2617797093007A24CF /* BTManager.h */,
+				8B060C2717797093007A24CF /* BTManager.m */,
+				8B060BEE17797074007A24CF /* BlueToothTalk */,
+				8B060C1517797074007A24CF /* BlueToothTalkTests */,
+				8B060BE717797074007A24CF /* Frameworks */,
+				8B060BE517797074007A24CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B060BE517797074007A24CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B060BE417797074007A24CF /* BlueToothTalk.app */,
+				8B060C0E17797074007A24CF /* BlueToothTalkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B060BE717797074007A24CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B060BE817797074007A24CF /* UIKit.framework */,
+				8B060BEA17797074007A24CF /* Foundation.framework */,
+				8B060BEC17797074007A24CF /* CoreGraphics.framework */,
+				8B060C0F17797074007A24CF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B060BEE17797074007A24CF /* BlueToothTalk */ = {
+			isa = PBXGroup;
+			children = (
+				8B09414B177D4CA4007A6B7D /* Messenger */,
+				8B09414A177D4C79007A6B7D /* Draw */,
+				8B09414D177D4CEA007A6B7D /* AppDelegate */,
+				8B060BEF17797074007A24CF /* Supporting Files */,
+			);
+			path = BlueToothTalk;
+			sourceTree = "<group>";
+		};
+		8B060BEF17797074007A24CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B060BF017797074007A24CF /* BlueToothTalk-Info.plist */,
+				8B060BF117797074007A24CF /* InfoPlist.strings */,
+				8B060BF417797074007A24CF /* main.m */,
+				8B060BF617797074007A24CF /* BlueToothTalk-Prefix.pch */,
+				8B060BFA17797074007A24CF /* Default.png */,
+				8B060BFC17797074007A24CF /* Default@2x.png */,
+				8B060BFE17797074007A24CF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B060C1517797074007A24CF /* BlueToothTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B060C1B17797074007A24CF /* BlueToothTalkTests.h */,
+				8B060C1C17797074007A24CF /* BlueToothTalkTests.m */,
+				8B060C1617797074007A24CF /* Supporting Files */,
+			);
+			path = BlueToothTalkTests;
+			sourceTree = "<group>";
+		};
+		8B060C1617797074007A24CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B060C1717797074007A24CF /* BlueToothTalkTests-Info.plist */,
+				8B060C1817797074007A24CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B09414A177D4C79007A6B7D /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				8B094156177D586E007A6B7D /* settings.png */,
+				8B09415A177D5A05007A6B7D /* userInfo.png */,
+				8B09415C177D5ACE007A6B7D /* save.png */,
+				8B09415E177D5B58007A6B7D /* colorPallete.png */,
+				8B094160177D5BDB007A6B7D /* pen.png */,
+				8B094162177D5CA6007A6B7D /* SelectedItem.png */,
+				8B094167177DA83F007A6B7D /* undo.png */,
+				8B094152177D53C7007A6B7D /* ScratchPad */,
+				8B094145177D4C6B007A6B7D /* BTTalkCanvasViewController.h */,
+				8B094146177D4C6B007A6B7D /* BTTalkCanvasViewController.m */,
+				8B094147177D4C6B007A6B7D /* BTTalkCanvasViewController.xib */,
+				8BA1D1FF17817CFF0040F3CD /* BTTalkCanvasViewController~iphone.xib */,
+			);
+			name = Draw;
+			sourceTree = "<group>";
+		};
+		8B09414B177D4CA4007A6B7D /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				8B060C0017797074007A24CF /* BTTalkViewController.h */,
+				8B060C0117797074007A24CF /* BTTalkViewController.m */,
+				8B060C0317797074007A24CF /* BTTalkViewController_iPhone.xib */,
+				8B060C0617797074007A24CF /* BTTalkViewController_iPad.xib */,
+				8B180D88177C335300403552 /* BTTalkCustomMessageCell.h */,
+				8B180D89177C335400403552 /* BTTalkCustomMessageCell.m */,
+				8B180D8C177C337C00403552 /* BTTalkCustomMessageCell.xib */,
+			);
+			name = Messenger;
+			sourceTree = "<group>";
+		};
+		8B09414D177D4CEA007A6B7D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B060BF717797074007A24CF /* BTTalkAppDelegate.h */,
+				8B060BF817797074007A24CF /* BTTalkAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8B094152177D53C7007A6B7D /* ScratchPad */ = {
+			isa = PBXGroup;
+			children = (
+				8B094153177D53EF007A6B7D /* DAScratchPadView.h */,
+				8B094154177D53EF007A6B7D /* DAScratchPadView.m */,
+			);
+			name = ScratchPad;
+			sourceTree = "<group>";
+		};
+		8BA1D1AC1781579D0040F3CD /* seconn set */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "seconn set";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B060BE317797074007A24CF /* BlueToothTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B060C2017797074007A24CF /* Build configuration list for PBXNativeTarget "BlueToothTalk" */;
+			buildPhases = (
+				8B060BE017797074007A24CF /* Sources */,
+				8B060BE117797074007A24CF /* Frameworks */,
+				8B060BE217797074007A24CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothTalk;
+			productName = BlueToothTalk;
+			productReference = 8B060BE417797074007A24CF /* BlueToothTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B060C0D17797074007A24CF /* BlueToothTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B060C2317797074007A24CF /* Build configuration list for PBXNativeTarget "BlueToothTalkTests" */;
+			buildPhases = (
+				8B060C0917797074007A24CF /* Sources */,
+				8B060C0A17797074007A24CF /* Frameworks */,
+				8B060C0B17797074007A24CF /* Resources */,
+				8B060C0C17797074007A24CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B060C1417797074007A24CF /* PBXTargetDependency */,
+			);
+			name = BlueToothTalkTests;
+			productName = BlueToothTalkTests;
+			productReference = 8B060C0E17797074007A24CF /* BlueToothTalkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B060BDB17797073007A24CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTTalk;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = CPT;
+			};
+			buildConfigurationList = 8B060BDE17797073007A24CF /* Build configuration list for PBXProject "BlueToothTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B060BD917797073007A24CF;
+			productRefGroup = 8B060BE517797074007A24CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B060BE317797074007A24CF /* BlueToothTalk */,
+				8B060C0D17797074007A24CF /* BlueToothTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B060BE217797074007A24CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B060BF317797074007A24CF /* InfoPlist.strings in Resources */,
+				8B060BFB17797074007A24CF /* Default.png in Resources */,
+				8B060BFD17797074007A24CF /* Default@2x.png in Resources */,
+				8B060BFF17797074007A24CF /* Default-568h@2x.png in Resources */,
+				8B060C0517797074007A24CF /* BTTalkViewController_iPhone.xib in Resources */,
+				8B060C0817797074007A24CF /* BTTalkViewController_iPad.xib in Resources */,
+				8B180D8D177C337C00403552 /* BTTalkCustomMessageCell.xib in Resources */,
+				8B094149177D4C6B007A6B7D /* BTTalkCanvasViewController.xib in Resources */,
+				8B094157177D586E007A6B7D /* settings.png in Resources */,
+				8B09415B177D5A05007A6B7D /* userInfo.png in Resources */,
+				8B09415D177D5ACE007A6B7D /* save.png in Resources */,
+				8B09415F177D5B58007A6B7D /* colorPallete.png in Resources */,
+				8B094161177D5BDB007A6B7D /* pen.png in Resources */,
+				8B094163177D5CA6007A6B7D /* SelectedItem.png in Resources */,
+				8B094168177DA83F007A6B7D /* undo.png in Resources */,
+				8BA1D20017817CFF0040F3CD /* BTTalkCanvasViewController~iphone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B060C0B17797074007A24CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B060C1A17797074007A24CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B060C0C17797074007A24CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B060BE017797074007A24CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B094164177D67E3007A6B7D /* DAScratchPadView.m in Sources */,
+				8B060C2B177972D6007A24CF /* BTManager.m in Sources */,
+				8B060BF517797074007A24CF /* main.m in Sources */,
+				8B060BF917797074007A24CF /* BTTalkAppDelegate.m in Sources */,
+				8B060C0217797074007A24CF /* BTTalkViewController.m in Sources */,
+				8B180D8A177C335400403552 /* BTTalkCustomMessageCell.m in Sources */,
+				8B180D94177C4F7000403552 /* BTTalkMessage.m in Sources */,
+				8B094148177D4C6B007A6B7D /* BTTalkCanvasViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B060C0917797074007A24CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B060C1D17797074007A24CF /* BlueToothTalkTests.m in Sources */,
+				8B060C2817797093007A24CF /* BTManager.m in Sources */,
+				8B094155177D53EF007A6B7D /* DAScratchPadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B060C1417797074007A24CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B060BE317797074007A24CF /* BlueToothTalk */;
+			targetProxy = 8B060C1317797074007A24CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B060BF117797074007A24CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B060BF217797074007A24CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B060C0317797074007A24CF /* BTTalkViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B060C0417797074007A24CF /* en */,
+			);
+			name = BTTalkViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8B060C0617797074007A24CF /* BTTalkViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B060C0717797074007A24CF /* en */,
+			);
+			name = BTTalkViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8B060C1817797074007A24CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B060C1917797074007A24CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B060C1E17797074007A24CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B060C1F17797074007A24CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B060C2117797074007A24CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothTalk/BlueToothTalk-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothTalk/BlueToothTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B060C2217797074007A24CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothTalk/BlueToothTalk-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothTalk/BlueToothTalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B060C2417797074007A24CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlueToothTalk.app/BlueToothTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothTalk/BlueToothTalk-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothTalkTests/BlueToothTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8B060C2517797074007A24CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlueToothTalk.app/BlueToothTalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothTalk/BlueToothTalk-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothTalkTests/BlueToothTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B060BDE17797073007A24CF /* Build configuration list for PBXProject "BlueToothTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B060C1E17797074007A24CF /* Debug */,
+				8B060C1F17797074007A24CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B060C2017797074007A24CF /* Build configuration list for PBXNativeTarget "BlueToothTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B060C2117797074007A24CF /* Debug */,
+				8B060C2217797074007A24CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B060C2317797074007A24CF /* Build configuration list for PBXNativeTarget "BlueToothTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B060C2417797074007A24CF /* Debug */,
+				8B060C2517797074007A24CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B060BDB17797073007A24CF /* Project object */;
+}
